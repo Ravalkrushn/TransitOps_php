@@ -1,0 +1,41 @@
+# ==========================================
+# TransitOps - Core PHP Project
+# ==========================================
+
+# Environment / Secrets
+.env
+.env.*
+!.env.example
+
+# Database / Local configuration
+config/local.php
+
+# User uploaded files
+public/uploads/*
+!public/uploads/.gitkeep
+
+# Logs
+*.log
+logs/
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary files
+*.tmp
+*.temp
+*.cache
+
+# PHP debugging / dumps
+.phpunit.result.cache
+
+# Local development files
+*.local
